@@ -2,6 +2,7 @@
     position: fixed;
     width: 280px;
     max-width: 70%;
+    height: 100%;
     left: 0;
     top: 0;
     z-index: 200;
@@ -18,9 +19,14 @@
 }
 
 .Open {
-    transform: translateX(0)
+    transform: translateX(0);
 }
 
-.Closed {
-    transform: translateX(-100%)
+.Close {
+    transform: translateX(-100%);
+}
+
+.Logo {
+    height: 11%;
+    margin-bottom: 32px;
 }
