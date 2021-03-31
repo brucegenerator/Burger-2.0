@@ -120,7 +120,7 @@ class ContactData extends Component {
     }
 
     inputChangedHandler = (event, inputIdentifier) => {
-        console.log(inputIdentifier);
+        console.log('INPUTIDENTIFIER', inputIdentifier);
         const updatedOrderForm = {
             ...this.state.orderForm
         };
